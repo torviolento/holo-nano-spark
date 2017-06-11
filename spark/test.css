@@ -200,3 +200,19 @@ ul {
     color: white;
     background-color: red;
 }
+
+.big-img-container {
+    height: 45%;
+    width: 45%;
+    display:inline-block;
+}
+
+#impact {
+    max-width:100%;
+    max-height:100%;
+}
+
+#downtime {
+    max-width:80%;
+    max-height:80%;
+}
