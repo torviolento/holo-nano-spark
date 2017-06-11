@@ -11,9 +11,9 @@
     <div id="nav">
          <ul>
             <li><a href="incident.html">Incident overview</a></li>
-            <li><a href="page2.html">Online Monitoring</a></li>
-            <li><a href="page4.html">Active Analytics</a></li>
-            <li><a href="page5.html">Impact Analysis</a></li>
+            <li><a href="online.html">Online Monitoring</a></li>
+            <li><a href="active.html">Active Analytics</a></li>
+            <li><a href="impact.html">Impact Analysis</a></li>
         </ul> 
     </div>
     <div id="main">
@@ -32,7 +32,7 @@
                     <p>Error code: None</p>
                 </div>
                 <div class="error-log ticket-field">
-                    <p>Recent log:</p>
+                    <p>Recent log entries:</p>
                     <div class="code-snippet">
                         <xmp>bt: cannot transition from exception stack to current process stack:
                         exception stack pointer: ffff810107132f20
@@ -68,45 +68,58 @@
                 </div>
             </div>
         </div>
-        <div id="solutions">
-            <div class="header solution">
-                <h3>Potential solutions:</h3>
-            </div>
-            <div id="solution1" class="solution">
-                <a class="more-info">🛈</a>
-                <div class="description">
-                    <p>Reboot robot</p>
+        <div id="right-side">
+            <div id="solutions">
+                <div class="header solution">
+                    <h3>Potential solutions:</h3>
                 </div>
-                <a class="stars">★★★★★</a>
-                <a class="checkmark">✔</a>
-            </div>
-            <div id="solution2" class="solution">
-                <a class="more-info">🛈</a>
-                <div class="description">
-                    <p>Change oil</p>
+                <div id="solution1" class="solution">
+                    <a class="more-info">🛈</a>
+                    <div class="description">
+                        <p>Reboot robot</p>
+                    </div>
+                    <a class="stars">★★★★★</a>
+                    <a class="checkmark">✔</a>
                 </div>
-                <a class="stars">★★★★</a>
-                <a class="checkmark">✔</a>
-            </div>
-            <div id="solution3" class="solution">
-                <a class="more-info">🛈</a>
-                <div class="description">
-                    <p>1. Stop robot</p>
-                    <p>2. Replace a wheel</p>
-                    <p>3. Start robot</p>
+                <div id="solution2" class="solution">
+                    <a class="more-info">🛈</a>
+                    <div class="description">
+                        <p>Change oil</p>
+                    </div>
+                    <a class="stars">★★★★</a>
+                    <a class="checkmark">✔</a>
                 </div>
-                <a class="stars">★★</a>
-                <a class="checkmark">✔</a>
-            </div>
-            <div id="solution4" class="solution">
-                <a class="more-info">🛈</a>
-                <div class="description">
-                    <p>1. Stop robot</p>
-                    <p>2. Replace the processor</p>
-                    <p>3. Start robot</p>
+                <div id="solution3" class="solution">
+                    <a class="more-info">🛈</a>
+                    <div class="description">
+                        <p>1. Stop robot</p>
+                        <p>2. Replace a wheel</p>
+                        <p>3. Start robot</p>
+                    </div>
+                    <a class="stars">★★</a>
+                    <a class="checkmark">✔</a>
                 </div>
-                <a class="stars">★</a>
-                <a class="checkmark">✔</a>
+                <div id="solution4" class="solution">
+                    <a class="more-info">🛈</a>
+                    <div class="description">
+                        <p>1. Stop robot</p>
+                        <p>2. Replace the processor</p>
+                        <p>3. Start robot</p>
+                    </div>
+                    <a class="stars">★</a>
+                    <a class="checkmark">✔</a>
+                </div>
+            </div>
+            <div id="request-help">
+                <div id="escalate">
+                    <button id="escalate-button">Escalate ticket's state to urgent ⇧</button>
+                </div>
+                <div id="repairman">
+                    <h3>Make a video call to a repairman</h3>
+                </div>
+                <div id="skype-container">
+                    <img src="images/skype.png" alt="call" id="skype">
+                </div>
             </div>
         </div>
     </div>
