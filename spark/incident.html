@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="test.css">
+
+    <script src="test.js"></script>
+</head>
+<body>
+    <div id="nav">
+         <ul>
+            <li><a href="incident.html">Incident overview</a></li>
+            <li><a href="page2.html">Online Monitoring</a></li>
+            <li><a href="page4.html">Active Analytics</a></li>
+            <li><a href="page5.html">Impact Analysis</a></li>
+        </ul> 
+    </div>
+    <div id="main">
+        <div id=tickets>
+            <div id="ticket1" class="ticket">
+                <div class="ticket-id ticket-field">
+                    <h3>Incident 402</h3>
+                </div>
+                <div class="machine-type ticket-field">
+                    <p>Machine model: production-robot-R2D2</p>
+                </div>
+                <div class="machine-id ticket-field">
+                    <p>Machine Id: robot-5124</p>
+                </div>
+                <div class="error-code ticket-field">
+                    <p>Error code: None</p>
+                </div>
+                <div class="error-log ticket-field">
+                    <p>Recent log:</p>
+                    <div class="code-snippet">
+                        <xmp>bt: cannot transition from exception stack to current process stack:
+                        exception stack pointer: ffff810107132f20
+                        process stack pointer: ffff81010712bef0
+                            current_stack_base: ffff8101b509c000
+
+                        KERNEL: /usr/lib/debug/lib/modules/2.6.18-164.10.1.el5.centos.plus/vmlinux
+                        DUMPFILE: vmcore
+                            CPUS: 2
+                            DATE: Tue Jan 19 20:21:19 2010
+                        UPTIME: 00:00:00
+                    LOAD AVERAGE: 0.00, 0.04, 0.07
+                        TASKS: 134
+                        NODENAME: testhost2@localdomain
+                        RELEASE: 2.6.18-164.10.1.el5
+                        VERSION: #1 SMP Thu Jan 7 19:54:26 EST 2010
+                        MACHINE: x86_64  (3000 Mhz)
+                        MEMORY: 7.5 GB
+                        PANIC: "SysRq : Trigger a crashdump"
+                            PID: 0
+                        COMMAND: "swapper"
+                            TASK: ffffffff80300ae0  (1 of 2)  [THREAD_INFO: ffffffff803f2000]
+                            CPU: 0
+                        STATE: TASK_RUNNING (ACTIVE)</xmp>
+                    </div>
+                </div>
+                <div class="comments ticket-field">
+                    <p>Comments:</p>
+                    <div class="comment-section">
+                        <p>Auto-generated comment:</p>
+                        <p>Robot's speed is lower than the usual (6% offset).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="solutions">
+            <div class="header solution">
+                <h3>Potential solutions:</h3>
+            </div>
+            <div id="solution1" class="solution">
+                <a class="more-info">🛈</a>
+                <div class="description">
+                    <p>Reboot robot</p>
+                </div>
+                <a class="stars">★★★★★</a>
+                <a class="checkmark">✔</a>
+            </div>
+            <div id="solution2" class="solution">
+                <a class="more-info">🛈</a>
+                <div class="description">
+                    <p>Change oil</p>
+                </div>
+                <a class="stars">★★★★</a>
+                <a class="checkmark">✔</a>
+            </div>
+            <div id="solution3" class="solution">
+                <a class="more-info">🛈</a>
+                <div class="description">
+                    <p>1. Stop robot</p>
+                    <p>2. Replace a wheel</p>
+                    <p>3. Start robot</p>
+                </div>
+                <a class="stars">★★</a>
+                <a class="checkmark">✔</a>
+            </div>
+            <div id="solution4" class="solution">
+                <a class="more-info">🛈</a>
+                <div class="description">
+                    <p>1. Stop robot</p>
+                    <p>2. Replace the processor</p>
+                    <p>3. Start robot</p>
+                </div>
+                <a class="stars">★</a>
+                <a class="checkmark">✔</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
