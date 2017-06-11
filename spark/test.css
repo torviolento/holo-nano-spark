@@ -180,11 +180,16 @@ ul {
     margin: 0;
     padding: 0;
 }
-.imgdiv {
-	max-width:100px;
-    max-height:100px;
-	display: inline-block;
+.imggi {
+	max-height: 100%;
+	max-width: 100%;
 	
+}
+.imgdiv {
+	display: inline-block;
+	max-width:100%;
+    max-height:100%;
+
 }
 
 #skype {
