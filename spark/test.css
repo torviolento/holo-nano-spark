@@ -10,13 +10,17 @@ body {
 
 #nav {
     position: absolute;
+    font-family: Arial;
     top:0;
     height:40px;
     width:100%;
     color: white;
     padding: 0;
     background-image:none;
-    background-color:rgb(00,33,99);
+}
+
+#place-holder {
+    margin-left:100px;
 }
 
 #main {
@@ -134,9 +138,13 @@ body {
 
 li {
     display: inline;
-    padding: 10px;
+    border-style:solid;
+    border-color:white;
+    text-align:center;
+    padding: 20px;
     margin-right: 0;
-    margin-left: 0;
+    margin-left: 3px;
+    background-color:rgb(00,33,99);
 }
 
 a {
